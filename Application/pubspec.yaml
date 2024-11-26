@@ -1,0 +1,51 @@
+name: thisone
+description: "for a graduation"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.2.8
+  mysql_client: ^0.0.27
+  shared_preferences: ^2.1.0
+  crypto: ^3.0.3
+  cupertino_icons: ^1.0.2
+  audioplayers: ^6.0.0
+  file_picker: ^8.0.3
+  image_picker: ^0.8.4+3
+  http: ^0.13.4
+
+dev_dependencies:
+  flutter_login: ^5.0.0
+  file_picker: ^8.0.0+1
+  dio: ^5.4.2+1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_native_splash: 2.3.1
+
+flutter:
+  uses-material-design: true
+
+  # Assets section for splash screen images
+  assets:
+    - assets/splash.png
+    - assets/goback.png
+    - assets/loading.png
+    - assets/mic.png
+    - assets/Rectangle3.png
+    - assets/letsgo.png
+    - assets/different.png
+    - assets/same.png
+    - assets/emergency.png
+    - assets/mic_black.png
+    - assets/video.png
+
+flutter_native_splash:
+  background_image: assets/splash.png
+  image: assets/splash.png
