@@ -106,4 +106,4 @@ async def process_files(file1: UploadFile = File(...), file2: UploadFile = File(
         return {"similarity_score": final_score, "result": "same"}  # 변환된 유사도 점수 반환
     else:
         logging.info("Result: different")
-        return {"similarity_score": similarity.item(), "result": "different"}  # 동일인이 아니면 원래 점수 반환
+        return {"similarity_score": similarity.item(), "result": "different"}
